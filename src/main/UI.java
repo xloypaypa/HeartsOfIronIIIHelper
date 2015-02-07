@@ -11,7 +11,7 @@ public class UI {
 	
 	public UI(){
 		if (window==null){
-			window=new JFrame("Bank 1.0");
+			window=new JFrame("HOI3 helper");
 		}
 	}
 	
