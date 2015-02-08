@@ -112,7 +112,7 @@ public class FixError implements ShowInterface {
 		});
 		show.add(science);
 		
-		buffer=new JButton("清楚缓存点这里(清楚万恶之源)");
+		buffer=new JButton("清除缓存点这里(清除万恶之源)");
 		buffer.setBounds(0, 300, 400, 100);
 		buffer.addActionListener(new ActionListener() {
 			@Override

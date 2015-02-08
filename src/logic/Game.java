@@ -54,7 +54,7 @@ public class Game {
 	public static void deleteCache(){
 		FileSystemView fsv=FileSystemView.getFileSystemView();
 		String tfh;
-		tfh=fsv.getDefaultDirectory().getPath()+"/Paradox Interactive/Hearts of Iron III/map";
+		tfh=fsv.getDefaultDirectory().getPath()+"/Paradox Interactive/Hearts of Iron III/map/cache";
 		HHD.deleteFolder(tfh);
 	}
 }
